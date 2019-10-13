@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/todolistDB', {
+mongoose.connect('mongodb+srv://taskapp:test123@cluster0-btkhk.mongodb.net/todolistDB', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
